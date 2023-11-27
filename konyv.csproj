@@ -1,0 +1,420 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\a-Dolls-house.jpg" />
+    <None Remove="images\a-la-recherche-du-temps-perdu.jpg" />
+    <None Remove="images\absalom-absalom.jpg" />
+    <None Remove="images\anna-karenina.jpg" />
+    <None Remove="images\beloved.jpg" />
+    <None Remove="images\berlin-alexanderplatz.jpg" />
+    <None Remove="images\blindness.jpg" />
+    <None Remove="images\bostan.jpg" />
+    <None Remove="images\buddenbrooks.jpg" />
+    <None Remove="images\children-of-gebelawi.jpg" />
+    <None Remove="images\confessions-of-zeno.jpg" />
+    <None Remove="images\crime-and-punishment.jpg" />
+    <None Remove="images\dead-souls.jpg" />
+    <None Remove="images\diary-of-a-madman.jpg" />
+    <None Remove="images\don-quijote-de-la-mancha.jpg" />
+    <None Remove="images\essais.jpg" />
+    <None Remove="images\fairy-tales.jpg" />
+    <None Remove="images\faust.jpg" />
+    <None Remove="images\ficciones.jpg" />
+    <None Remove="images\gargantua-and-pantagruel.jpg" />
+    <None Remove="images\great-expectations.jpg" />
+    <None Remove="images\gullivers-travels.jpg" />
+    <None Remove="images\gypsy-ballads.jpg" />
+    <None Remove="images\hamlet.jpg" />
+    <None Remove="images\history.jpg" />
+    <None Remove="images\hunger.jpg" />
+    <None Remove="images\independent-people.jpg" />
+    <None Remove="images\invisible-man.jpg" />
+    <None Remove="images\jacques-the-fatalist.jpg" />
+    <None Remove="images\king-lear.jpg" />
+    <None Remove="images\l-education-sentimentale.jpg" />
+    <None Remove="images\l-etranger.jpg" />
+    <None Remove="images\le-pere-goriot.jpg" />
+    <None Remove="images\le-rouge-et-le-noir.jpg" />
+    <None Remove="images\leaves-of-grass.jpg" />
+    <None Remove="images\lolita.jpg" />
+    <None Remove="images\love-in-the-time-of-cholera.jpg" />
+    <None Remove="images\madame-bovary.jpg" />
+    <None Remove="images\medea.jpg" />
+    <None Remove="images\memoirs-of-hadrian.jpg" />
+    <None Remove="images\middlemarch.jpg" />
+    <None Remove="images\midnights-children.jpg" />
+    <None Remove="images\moby-dick.jpg" />
+    <None Remove="images\molloy-malone-dies-the-unnamable.jpg" />
+    <None Remove="images\mrs-dalloway.jpg" />
+    <None Remove="images\nineteen-eighty-four.jpg" />
+    <None Remove="images\njals-saga.jpg" />
+    <None Remove="images\nostromo.jpg" />
+    <None Remove="images\oedipus-the-king.jpg" />
+    <None Remove="images\one-hundred-years-of-solitude.jpg" />
+    <None Remove="images\one-thousand-and-one-nights.jpg" />
+    <None Remove="images\othello.jpg" />
+    <None Remove="images\pedro-paramo.jpg" />
+    <None Remove="images\pippi-longstocking.jpg" />
+    <None Remove="images\poems-giacomo-leopardi.jpg" />
+    <None Remove="images\poems-paul-celan.jpg" />
+    <None Remove="images\pride-and-prejudice.jpg" />
+    <None Remove="images\ramayana.jpg" />
+    <None Remove="images\season-of-migration-to-the-north.jpg" />
+    <None Remove="images\sons-and-lovers.jpg" />
+    <None Remove="images\stories-of-anton-chekhov.jpg" />
+    <None Remove="images\stories-of-franz-kafka.jpg" />
+    <None Remove="images\tales-and-poems-of-edgar-allan-poe.jpg" />
+    <None Remove="images\the-adventures-of-huckleberry-finn.jpg" />
+    <None Remove="images\the-aeneid.jpg" />
+    <None Remove="images\the-book-of-disquiet.jpg" />
+    <None Remove="images\the-book-of-job.jpg" />
+    <None Remove="images\the-brothers-karamazov.jpg" />
+    <None Remove="images\the-canterbury-tales.jpg" />
+    <None Remove="images\the-castle.jpg" />
+    <None Remove="images\the-death-of-ivan-ilyich.jpg" />
+    <None Remove="images\the-decameron.jpg" />
+    <None Remove="images\the-devil-to-pay-in-the-backlands.jpg" />
+    <None Remove="images\the-divine-comedy.jpg" />
+    <None Remove="images\the-epic-of-gilgamesh.jpg" />
+    <None Remove="images\the-golden-notebook.jpg" />
+    <None Remove="images\the-idiot.jpg" />
+    <None Remove="images\the-iliad-of-homer.jpg" />
+    <None Remove="images\the-life-and-opinions-of-tristram-shandy.jpg" />
+    <None Remove="images\the-magic-mountain.jpg" />
+    <None Remove="images\the-mahab-harata.jpg" />
+    <None Remove="images\the-man-without-qualities.jpg" />
+    <None Remove="images\the-masnavi.jpg" />
+    <None Remove="images\the-metamorphoses-of-ovid.jpg" />
+    <None Remove="images\the-odyssey-of-homer.jpg" />
+    <None Remove="images\the-old-man-and-the-sea.jpg" />
+    <None Remove="images\the-possessed.jpg" />
+    <None Remove="images\the-recognition-of-shakuntala.jpg" />
+    <None Remove="images\the-sound-and-the-fury.jpg" />
+    <None Remove="images\the-sound-of-the-mountain.jpg" />
+    <None Remove="images\the-tale-of-genji.jpg" />
+    <None Remove="images\the-tin-drum.jpg" />
+    <None Remove="images\the-trial.jpg" />
+    <None Remove="images\things-fall-apart.jpg" />
+    <None Remove="images\to-the-lighthouse.jpg" />
+    <None Remove="images\ulysses.jpg" />
+    <None Remove="images\voyage-au-bout-de-la-nuit.jpg" />
+    <None Remove="images\war-and-peace.jpg" />
+    <None Remove="images\wuthering-heights.jpg" />
+    <None Remove="images\zorba-the-greek.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\a-Dolls-house.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\a-la-recherche-du-temps-perdu.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\absalom-absalom.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\anna-karenina.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\beloved.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\berlin-alexanderplatz.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\blindness.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\bostan.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\buddenbrooks.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\children-of-gebelawi.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\confessions-of-zeno.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\crime-and-punishment.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\dead-souls.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\diary-of-a-madman.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\don-quijote-de-la-mancha.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\essais.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\fairy-tales.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\faust.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\ficciones.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\gargantua-and-pantagruel.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\great-expectations.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\gullivers-travels.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\gypsy-ballads.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\hamlet.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\history.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\hunger.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\independent-people.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\invisible-man.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\jacques-the-fatalist.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\king-lear.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\l-education-sentimentale.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\l-etranger.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\le-pere-goriot.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\le-rouge-et-le-noir.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\leaves-of-grass.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\lolita.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\love-in-the-time-of-cholera.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\madame-bovary.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\medea.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\memoirs-of-hadrian.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\middlemarch.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\midnights-children.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\moby-dick.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\molloy-malone-dies-the-unnamable.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\mrs-dalloway.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\nineteen-eighty-four.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\njals-saga.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\nostromo.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\oedipus-the-king.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\one-hundred-years-of-solitude.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\one-thousand-and-one-nights.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\othello.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\pedro-paramo.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\pippi-longstocking.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\poems-giacomo-leopardi.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\poems-paul-celan.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\pride-and-prejudice.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\ramayana.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\season-of-migration-to-the-north.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\sons-and-lovers.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\stories-of-anton-chekhov.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\stories-of-franz-kafka.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\tales-and-poems-of-edgar-allan-poe.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-adventures-of-huckleberry-finn.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-aeneid.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-book-of-disquiet.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-book-of-job.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-brothers-karamazov.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-canterbury-tales.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-castle.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-death-of-ivan-ilyich.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-decameron.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-devil-to-pay-in-the-backlands.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-divine-comedy.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-epic-of-gilgamesh.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-golden-notebook.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-idiot.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-iliad-of-homer.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-life-and-opinions-of-tristram-shandy.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-magic-mountain.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-mahab-harata.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-man-without-qualities.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-masnavi.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-metamorphoses-of-ovid.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-odyssey-of-homer.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-old-man-and-the-sea.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-possessed.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-recognition-of-shakuntala.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-sound-and-the-fury.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-sound-of-the-mountain.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-tale-of-genji.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-tin-drum.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\the-trial.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\things-fall-apart.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\to-the-lighthouse.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\ulysses.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\voyage-au-bout-de-la-nuit.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\war-and-peace.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\wuthering-heights.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\zorba-the-greek.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

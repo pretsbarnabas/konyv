@@ -1,0 +1,45 @@
+﻿<Window x:Class="konyv.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:konyv"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Minden idők 100 legjobb könyve"></Label>
+        <WrapPanel x:Name="main_container" Margin="0,36,0,0">
+            <StackPanel x:Name="select_container">
+                <Label Content="Könyv listázó"></Label>
+                <WrapPanel>
+                    <Label Content="A könyv nyelve:"></Label>
+                    <ComboBox x:Name="cbox_select" Width="100px"></ComboBox>
+                </WrapPanel>
+                <StackPanel x:Name="sp_listedBooks">
+                    <StackPanel>
+                        <WrapPanel>
+                            <Label Content="Szerző:"></Label>
+                            <Label Content="Placeholder"></Label>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <Label Content="Cím:"></Label>
+                            <Label Content="Placeholder"></Label>
+                        </WrapPanel>
+                    </StackPanel>
+                    <StackPanel>
+                        <WrapPanel>
+                            <Label Content="Szerző:"></Label>
+                            <Label Content="Placeholder"></Label>
+                        </WrapPanel>
+                        <WrapPanel>
+                            <Label Content="Cím:"></Label>
+                            <Label Content="Placeholder"></Label>
+                        </WrapPanel>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+            <local:info/>
+            <Image Source="images/absalom-absalom.jpg"></Image>
+        </WrapPanel>
+    </Grid>
+</Window>
