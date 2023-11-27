@@ -417,4 +417,10 @@
     </Resource>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="books.db">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

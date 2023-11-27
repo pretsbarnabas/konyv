@@ -1,4 +1,4 @@
-﻿<Window x:Class="konyv.MainWindow"
+<Window x:Class="konyv.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -21,13 +21,15 @@
                 <Label Content="Könyv listázó"></Label>
                 <WrapPanel>
                     <Label Content="A könyv nyelve:"></Label>
-                    <ComboBox x:Name="cbox_select" Width="100px"></ComboBox>
+                    <ComboBox x:Name="cbox_select" Width="100px" SelectionChanged="cbox_select_SelectionChanged"></ComboBox>
                 </WrapPanel>
-                <StackPanel x:Name="sp_listedBooks">
-
-                </StackPanel>
+                <ScrollViewer Height="200">
+                    <StackPanel x:Name="sp_listedBooks">
+                    </StackPanel>
+                </ScrollViewer>
             </StackPanel>
-            <local:info/>
+            <local:info x:Name="bookinfo"/>
+            <Image x:Name="book_image"></Image>
         </WrapPanel>
         <Image HorizontalAlignment="Right" Source="images/absalom-absalom.jpg" Width="365" Margin="0,36,0,0"/>
     </Grid>
