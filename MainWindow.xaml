@@ -23,7 +23,7 @@
                     <Label Content="A könyv nyelve:"></Label>
                     <ComboBox x:Name="cbox_select" Width="100px" SelectionChanged="cbox_select_SelectionChanged"></ComboBox>
                 </WrapPanel>
-                <ScrollViewer Height="200">
+                <ScrollViewer Height="300">
                     <StackPanel x:Name="sp_listedBooks">
                     </StackPanel>
                 </ScrollViewer>

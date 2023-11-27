@@ -28,7 +28,7 @@
             <Label FontWeight="Bold" Content="Megjelenés éve:"></Label>
             <Label x:Name="info_realyear" Content=""></Label>
         </WrapPanel>
-        <TextBlock x:Name="info_link" Visibility="Visible">
+        <TextBlock x:Name="info_link" Visibility="Hidden">
 <Hyperlink Name="HL_wiki" NavigateUri="https://google.com/" RequestNavigate="HL_wiki_RequestNavigate">
      <Run Text="Wikipedia link"/>
  </Hyperlink>

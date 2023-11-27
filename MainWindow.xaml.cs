@@ -73,21 +73,16 @@ namespace konyv
                 WrapPanel wp2 = new();
                 Label author = new();
                 Label title = new();
-                author.Content = $"{item.Author}";
-                title.Content = $"{item.Title}";
-                wp1.Children.Add(new Label { Content = "Szerző: "});
-                wp2.Children.Add(new Label { Content = "Cím: " });
-                wp1.Children.Add(author);
-                wp2.Children.Add(title);
-                sp.Children.Add(wp1);
-                sp.Children.Add(wp2);
-                sp.AddHandler(StackPanel.MouseDownEvent, new RoutedEventHandler(ListedBookClick));
-                sp_listedBooks.Children.Add(sp);
+                Listelement listelement = new Listelement();
+                listelement.author.Content = item.Author;
+                listelement.title.Content = item.Title;
+                listelement.AddHandler(Listelement.MouseDownEvent, new RoutedEventHandler(ListedBookClick));
+                sp_listedBooks.Children.Add(listelement);
             }
         }
         private void ListedBookClick(object sender, RoutedEventArgs e)
         {
-            string title = (string)(((sender as StackPanel).Children[1] as WrapPanel).Children[1] as Label).Content;
+            string title = (sender as Listelement).title.Content.ToString();
             Book selectedBook = new();
             foreach (var item in books)
             {

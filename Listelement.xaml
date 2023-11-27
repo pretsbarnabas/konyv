@@ -19,11 +19,11 @@
             <StackPanel Style="{StaticResource KönyvListElement}">
                 <WrapPanel>
                     <Label Content="Szerző:"></Label>
-                    <Label Content="Placeholder"></Label>
+                    <Label x:Name="author" Content="Placeholder"></Label>
                 </WrapPanel>
                 <WrapPanel>
                     <Label Content="Cím:"></Label>
-                    <Label Content="Placeholder"></Label>
+                    <Label x:Name="title" Content="Placeholder"></Label>
                 </WrapPanel>
             </StackPanel>
         </Border>
