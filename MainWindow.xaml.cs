@@ -68,11 +68,6 @@ namespace konyv
             }
             foreach (var item in filteredList)
             {
-                StackPanel sp = new();
-                WrapPanel wp1 = new();
-                WrapPanel wp2 = new();
-                Label author = new();
-                Label title = new();
                 Listelement listelement = new Listelement();
                 listelement.author.Content = item.Author;
                 listelement.title.Content = item.Title;
