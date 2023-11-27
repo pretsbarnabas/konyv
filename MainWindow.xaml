@@ -29,8 +29,7 @@
                 </ScrollViewer>
             </StackPanel>
             <local:info x:Name="bookinfo"/>
-            <Image x:Name="book_image"></Image>
         </WrapPanel>
-        <Image HorizontalAlignment="Right" Source="images/absalom-absalom.jpg" Width="365" Margin="0,36,0,0"/>
+        <Image x:Name="book_image" HorizontalAlignment="Right" Width="365" Margin="0,36,0,0"></Image>
     </Grid>
 </Window>
