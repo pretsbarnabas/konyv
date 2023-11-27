@@ -6,40 +6,29 @@
         xmlns:local="clr-namespace:konyv"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="StackPanel" x:Key="KönyvListazo">
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="Background" Value="Bisque"></Setter>
+        </Style>
+
+
+    </Window.Resources>
     <Grid>
-        <Label Content="Minden idők 100 legjobb könyve"></Label>
+        <Label FontWeight="Bold" HorizontalAlignment="Center" FontSize="20" Content="Minden idők 100 legjobb könyve"></Label>
         <WrapPanel x:Name="main_container" Margin="0,36,0,0">
-            <StackPanel x:Name="select_container">
+            <StackPanel x:Name="select_container" Style="{StaticResource KönyvListazo}" HorizontalAlignment="Center" Height="388">
                 <Label Content="Könyv listázó"></Label>
                 <WrapPanel>
                     <Label Content="A könyv nyelve:"></Label>
                     <ComboBox x:Name="cbox_select" Width="100px"></ComboBox>
                 </WrapPanel>
                 <StackPanel x:Name="sp_listedBooks">
-                    <StackPanel>
-                        <WrapPanel>
-                            <Label Content="Szerző:"></Label>
-                            <Label Content="Placeholder"></Label>
-                        </WrapPanel>
-                        <WrapPanel>
-                            <Label Content="Cím:"></Label>
-                            <Label Content="Placeholder"></Label>
-                        </WrapPanel>
-                    </StackPanel>
-                    <StackPanel>
-                        <WrapPanel>
-                            <Label Content="Szerző:"></Label>
-                            <Label Content="Placeholder"></Label>
-                        </WrapPanel>
-                        <WrapPanel>
-                            <Label Content="Cím:"></Label>
-                            <Label Content="Placeholder"></Label>
-                        </WrapPanel>
-                    </StackPanel>
+
                 </StackPanel>
             </StackPanel>
             <local:info/>
-            <Image Source="images/absalom-absalom.jpg"></Image>
         </WrapPanel>
+        <Image HorizontalAlignment="Right" Source="images/absalom-absalom.jpg" Width="365" Margin="0,36,0,0"/>
     </Grid>
 </Window>

@@ -9,23 +9,23 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <StackPanel>
         <WrapPanel>
-            <Label Content="Szerző:"></Label>
+            <Label FontWeight="Bold" Content="Szerző:"></Label>
             <Label Content="Placeholder"></Label>
         </WrapPanel>
         <WrapPanel>
-            <Label Content="Könyv címe:"></Label>
+            <Label FontWeight="Bold" Content="Könyv címe:"></Label>
             <Label Content="Placeholder"></Label>
         </WrapPanel>
         <WrapPanel>
-            <Label Content="Nyelve:"></Label>
+            <Label FontWeight="Bold" Content="Nyelve:"></Label>
             <Label Content="Placeholder"></Label>
         </WrapPanel>
         <WrapPanel>
-            <Label Content="Ország:"></Label>
+            <Label FontWeight="Bold" Content="Ország:"></Label>
             <Label Content="Placeholder"></Label>
         </WrapPanel>
         <WrapPanel>
-            <Label Content="Megjelenés éve:"></Label>
+            <Label FontWeight="Bold" Content="Megjelenés éve:"></Label>
             <Label Content="Placeholder"></Label>
         </WrapPanel>
         <Label>Link</Label>
