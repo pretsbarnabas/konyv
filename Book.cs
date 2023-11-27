@@ -12,7 +12,7 @@ namespace konyv
         public string Author { get; set; }
         public string RealYears { get; set; }
         public string Year { get; set; }
-        public int Country { get; set; }
+        public string Country { get; set; }
         public string Language { get; set; }
         public string Pages { get; set; }
         public string ImageName { get; set; }

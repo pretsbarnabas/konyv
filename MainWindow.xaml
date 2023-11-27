@@ -13,33 +13,15 @@
                 <Label Content="Könyv listázó"></Label>
                 <WrapPanel>
                     <Label Content="A könyv nyelve:"></Label>
-                    <ComboBox x:Name="cbox_select" Width="100px"></ComboBox>
+                    <ComboBox x:Name="cbox_select" Width="100px" SelectionChanged="cbox_select_SelectionChanged"></ComboBox>
                 </WrapPanel>
-                <StackPanel x:Name="sp_listedBooks">
-                    <StackPanel>
-                        <WrapPanel>
-                            <Label Content="Szerző:"></Label>
-                            <Label Content="Placeholder"></Label>
-                        </WrapPanel>
-                        <WrapPanel>
-                            <Label Content="Cím:"></Label>
-                            <Label Content="Placeholder"></Label>
-                        </WrapPanel>
+                <ScrollViewer Height="200">
+                    <StackPanel x:Name="sp_listedBooks">
                     </StackPanel>
-                    <StackPanel>
-                        <WrapPanel>
-                            <Label Content="Szerző:"></Label>
-                            <Label Content="Placeholder"></Label>
-                        </WrapPanel>
-                        <WrapPanel>
-                            <Label Content="Cím:"></Label>
-                            <Label Content="Placeholder"></Label>
-                        </WrapPanel>
-                    </StackPanel>
-                </StackPanel>
+                </ScrollViewer>
             </StackPanel>
-            <local:info/>
-            <Image Source="images/absalom-absalom.jpg"></Image>
+            <local:info x:Name="bookinfo"/>
+            <Image x:Name="book_image"></Image>
         </WrapPanel>
     </Grid>
 </Window>

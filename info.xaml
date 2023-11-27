@@ -10,24 +10,29 @@
     <StackPanel>
         <WrapPanel>
             <Label Content="Szerző:"></Label>
-            <Label Content="Placeholder"></Label>
+            <Label x:Name="info_author" Content=""></Label>
         </WrapPanel>
         <WrapPanel>
             <Label Content="Könyv címe:"></Label>
-            <Label Content="Placeholder"></Label>
+            <Label x:Name="info_title" Content=""></Label>
         </WrapPanel>
         <WrapPanel>
             <Label Content="Nyelve:"></Label>
-            <Label Content="Placeholder"></Label>
+            <Label x:Name="info_language" Content=""></Label>
         </WrapPanel>
         <WrapPanel>
             <Label Content="Ország:"></Label>
-            <Label Content="Placeholder"></Label>
+            <Label x:Name="info_country" Content=""></Label>
         </WrapPanel>
         <WrapPanel>
             <Label Content="Megjelenés éve:"></Label>
-            <Label Content="Placeholder"></Label>
+            <Label x:Name="info_realyear" Content=""></Label>
         </WrapPanel>
-        <Label>Link</Label>
+        <TextBlock x:Name="info_link" Visibility="Visible">
+<Hyperlink Name="HL_wiki" NavigateUri="https://google.com/" RequestNavigate="HL_wiki_RequestNavigate">
+     <Run Text="Wikipedia link"/>
+ </Hyperlink>
+        </TextBlock>
+
     </StackPanel>
 </UserControl>
