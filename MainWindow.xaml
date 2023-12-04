@@ -30,6 +30,16 @@
             </StackPanel>
             <local:info x:Name="bookinfo"/>
         </WrapPanel>
-        <Image x:Name="book_image" HorizontalAlignment="Right" Width="365" Margin="0,36,0,0"></Image>
+        <Image x:Name="book_image"  HorizontalAlignment="Right" Width="365" Margin="0,36,0,0"></Image>
+        <Image Source="/images/gocku.jpg" Margin="-2,2,557,378" Cursor="Wait" Stretch="Fill" RenderTransformOrigin="0.5,0.5" StretchDirection="DownOnly">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.215"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="0.496"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
     </Grid>
 </Window>
