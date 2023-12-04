@@ -24,5 +24,14 @@ namespace konyv
         {
             InitializeComponent();
         }
+        
+        void Border_MouseEnter(object sender, MouseEventArgs e)
+        {
+            border1.BorderBrush = Brushes.Black;
+        }
+        void Border_MouseLeave(object sender, MouseEventArgs e)
+        {
+            border1.BorderBrush = Brushes.Beige;
+        }
     }
 }

@@ -17,13 +17,13 @@
     <Grid>
         <Label FontWeight="Bold" HorizontalAlignment="Center" FontSize="20" Content="Minden idők 100 legjobb könyve"></Label>
         <WrapPanel x:Name="main_container" Margin="0,36,0,0">
-            <StackPanel x:Name="select_container" Style="{StaticResource KönyvListazo}" HorizontalAlignment="Center" Height="388">
-                <Label Content="Könyv listázó"></Label>
+            <StackPanel x:Name="select_container" Style="{StaticResource KönyvListazo}" HorizontalAlignment="Center" Width="250" Height="388">
+                <Label Content="Könyv listázó" ></Label>
                 <WrapPanel>
                     <Label Content="A könyv nyelve:"></Label>
                     <ComboBox x:Name="cbox_select" Width="100px" SelectionChanged="cbox_select_SelectionChanged"></ComboBox>
                 </WrapPanel>
-                <ScrollViewer Height="300">
+                <ScrollViewer Height="325.25">
                     <StackPanel x:Name="sp_listedBooks">
                     </StackPanel>
                 </ScrollViewer>
